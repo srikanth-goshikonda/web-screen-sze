@@ -1,0 +1,14 @@
+    <label for="">Width</label>
+    <h1 id="width"></h1>
+    <label for="">Height</label>
+    <h1 id="height"></h1>
+
+    <script>
+      screen_width = document.documentElement.clientWidth;
+      screen_heght = document.documentElement.clientHeight;
+
+      let x = document.getElementById("width");
+      let y = document.getElementById("height");
+      x.innerText = window.innerWidth;
+      y.innerText = window.innerHeight;
+    </script>
